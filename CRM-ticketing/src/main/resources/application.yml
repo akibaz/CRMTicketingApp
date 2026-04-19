@@ -1,0 +1,15 @@
+spring:
+  main:
+    server:
+      port: 8080
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ticketing_service
+    username: akibaz
+    password: akibaz
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+      format_sql: true
